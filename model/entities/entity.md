@@ -6,13 +6,13 @@ __Description:__ a Caliper entity provides the minimal set of properties for rep
 
 __Properties__
 
-| Property | Type | Conformance | Description |
-| -------- | ---- |  ----------- | ----------- |
-| @context | String | required | JSON-LD context represented by an IRI |
-| @id | String | required | Identifier of resource represented by an IRI |
-| @type | String |  required | http://purl.imsglobal.org/caliper/v1/Entity |
-| name | String |  optional | Analogous to http://schema.org/name |
-| description | String |  optional | Analogous to  http://schema.org/description |
-| extensions | Map<String, String> | optional | |
-| dateCreated | DateTime | optional | Analogous to http://schema.org/dateCreated ([ISO 8601](https://en.wikipedia.org/wiki/ISO_8601#Combined_date_and_time_representations) format) |
-| dateModified | DateTime | optional | Analogous to http://schema.org/dateModified ([ISO 8601](https://en.wikipedia.org/wiki/ISO_8601#Combined_date_and_time_representations) format) |
+| Property | Type | Description | Conformance |
+| :------- | :--- | :---------- | :---------- |
+| @context | [xsd:string](https://www.w3.org/TR/xmlschema11-2/#string) | JSON-LD context represented by an IRI | required |
+| @id | [xsd:string](https://www.w3.org/TR/xmlschema11-2/#string) | JSON-LD identifier represented as a globally-scoped IRI or a locally-scoped blank node | required |
+| @type | [xsd:string](https://www.w3.org/TR/xmlschema11-2/#string) | JSON-LD type IRI | required |
+| name | [xsd:string](https://www.w3.org/TR/xmlschema11-2/#string) | Analogous to http://schema.org/name |  optional |
+| description | [xsd:string](https://www.w3.org/TR/xmlschema11-2/#string) | Analogous to  http://schema.org/description | optional |
+| extensions | Map<[xsd:string](https://www.w3.org/TR/xmlschema11-2/#string), [xsd:string](https://www.w3.org/TR/xmlschema11-2/#string)> | &nbsp; | optional |
+| dateCreated | [xsd:dateTime](https://www.w3.org/TR/xmlschema11-2/#dateTime) | &nbsp; | optional |
+| dateModified | [xsd:dateTime](https://www.w3.org/TR/xmlschema11-2/#dateTime) | &nbsp; | optional |

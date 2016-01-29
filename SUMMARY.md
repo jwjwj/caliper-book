@@ -32,3 +32,4 @@
 * [LTI](lti/lti.md)
 * [Conformance](conformance/conformance.md)
 * [Contribute](contribute/contribute.md)
+* [Glossary](GLOSSARY.md)
