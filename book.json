@@ -1,0 +1,18 @@
+{
+  "title": "Caliper Analytics Specification",
+  "description": "Specification and Implementation Guide",
+  "gitbook": "2.x.x",
+  "language": "en",
+  "plugins": [],
+  "pluginsConfig": {},
+  "structure": {
+    "readme": "README.md"
+  },
+  "styles": {},
+  "variables": {
+    "datatype_dateTime": "[xsd:dateTime](https://www.w3.org/TR/xmlschema11-2/#dateTime)",
+    "datatype_nonNegativeInteger": "[xsd:nonNegativeInteger](https://www.w3.org/TR/xmlschema11-2/#nonNegativeInteger)",
+    "datatype_string": "[xsd:string](https://www.w3.org/TR/xmlschema11-2/#string)",
+    "entity_post": "[http://purl.imsglobal.org/caliper/v1/Post](http://purl.imsglobal.org/caliper/v1/Post)"
+  }
+}
