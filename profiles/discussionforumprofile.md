@@ -1,6 +1,6 @@
 ### Discussion Forum Profile
 
-__Description__
+__Comment__
 
 
 ### Entities
