@@ -1,0 +1,94 @@
+
+h2 {
+    color: #3366cc;
+    /* color: #2aa198; */
+    /* color: #1e90ff; */
+}
+
+h3 {
+    color: #3366cc;
+    /* color: #2aa198; */
+    /* color: #1e90ff; */
+}
+
+h4 {
+    color: #696969;
+}
+
+p {
+    text-align: justify;
+}
+
+strong {
+    color: #696969;
+}
+
+/* border-collapse set to separate because of override issues with style.css */
+div.book-body > div.body-inner > div.page-wrapper > div.page-inner > section.normal table {
+    /* border-collapse: collapse; */
+    border-collapse: separate;
+    border-radius: 6px 6px 6px 6px;
+    border-spacing: 0;
+    font-size: 12px;
+}
+
+div.book-body > div.body-inner > div.page-wrapper > div.page-inner > section.normal th {
+    background-color: #3366cc;
+    /* background-color: #2aa198; */
+    color: #ffffff;
+    font-size: 12px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* no top border */
+div.book-body > div.body-inner > div.page-wrapper > div.page-inner > section.normal td {
+    border-top: none;
+    color: #000000;
+    font-size: 12px;
+    /** font-size: 12px !important; works but use selectors */
+    text-align: left;
+    vertical-align: top;
+}
+
+/* No left border */
+div.book-body > div.body-inner > div.page-wrapper > div.page-inner > section.normal th:nth-child(1n+2) {
+    border-left: none;
+}
+
+/* No left border */
+div.book-body > div.body-inner > div.page-wrapper > div.page-inner > section.normal td:nth-child(1n+2) {
+    border-left: none;
+}
+
+/* Rounded corner top left */
+div.book-body > div.body-inner > div.page-wrapper > div.page-inner > section.normal th:first-child {
+    border-radius: 6px 0 0 0;
+}
+
+/* Rounded corner top right */
+div.book-body > div.body-inner > div.page-wrapper > div.page-inner > section.normal th:last-child {
+    border-radius: 0 6px 0 0;
+}
+
+/* Rounded corner bottom left - first cell of last row */
+div.book-body > div.body-inner > div.page-wrapper > div.page-inner > section.normal tr:last-child td:first-child {
+    border-radius: 0 0 0 6px;
+}
+
+/* Rounded corner bottom right - last cell of last row */
+div.book-body > div.body-inner > div.page-wrapper > div.page-inner > section.normal tr:last-child td:last-child {
+    border-radius: 0 0 6px 0;
+}
+
+/* Code snippets */
+div.book-body > div.body-inner > div.page-wrapper > div.page-inner > section.normal > pre {
+    background-color: #f8f8f8;
+    border-color: #dddddd;
+    border-radius: 6px 6px 6px 6px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    color: #000000;
+    font-size: 12px;
+}
+
