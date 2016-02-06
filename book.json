@@ -8,11 +8,75 @@
   "structure": {
     "readme": "README.md"
   },
-  "styles": {},
+  "styles": {
+    "website": "./styles/website.css"
+  },
   "variables": {
-    "datatype_dateTime": "[xsd:dateTime](https://www.w3.org/TR/xmlschema11-2/#dateTime)",
-    "datatype_nonNegativeInteger": "[xsd:nonNegativeInteger](https://www.w3.org/TR/xmlschema11-2/#nonNegativeInteger)",
-    "datatype_string": "[xsd:string](https://www.w3.org/TR/xmlschema11-2/#string)",
-    "entity_post": "[http://purl.imsglobal.org/caliper/v1/Post](http://purl.imsglobal.org/caliper/v1/Post)"
+    "action": {},
+    "class": {
+      "caliper": {
+        "entity": {
+          "Agent": "[http://purl.imsglobal.org/caliper/v1/Agent](http://purl.imsglobal.org/caliper/v1/Agent)",
+          "Attempt": "[http://purl.imsglobal.org/caliper/v1/Attempt](http://purl.imsglobal.org/caliper/v1/Attempt)",
+          "DigitalResource": "[http://purl.imsglobal.org/caliper/v1/DigitalResource](http://purl.imsglobal.org/caliper/v1/DigitalResource)",
+          "Entity": "[http://purl.imsglobal.org/caliper/v1/Entity](http://purl.imsglobal.org/caliper/v1/Entity)",
+          "Membership": "[http://purl.imsglobal.org/caliper/v1/lis/Membership](http://purl.imsglobal.org/caliper/lis/Membership)",
+          "Organization": "[http://purl.imsglobal.org/caliper/v1/w3c/Organization](http://purl.imsglobal.org/caliper/w3c/Organization)",
+          "Person": "[http://purl.imsglobal.org/caliper/v1/Person](http://purl.imsglobal.org/caliper/v1/lis/Person)",
+          "Post": "[http://purl.imsglobal.org/caliper/v1/Post](http://purl.imsglobal.org/caliper/v1/Post)",
+          "Session": "[http://purl.imsglobal.org/caliper/v1/Event](http://purl.imsglobal.org/caliper/v1/Session)",
+          "SoftwareApplication": "[http://purl.imsglobal.org/caliper/v1/SoftwareApplication](http://purl.imsglobal.org/caliper/v1/SoftwareApplication)"
+        },
+        "event": {
+          "Event": "[http://purl.imsglobal.org/caliper/v1/Event](http://purl.imsglobal.org/caliper/v1/Event)"
+        }
+      },
+      "dcmitype": {
+        "Software": "[dcmitype:Software](http://purl.org/dc/dcmitype/Software)"
+      },
+      "foaf": {
+        "Agent": "[foaf:Agent](http://xmlns.com/foaf/spec/#term_Agent)",
+        "Person": "[foaf:Person](http://xmlns.com/foaf/spec/#term_Person)"
+      },
+      "sdo": {
+        "CreativeWork": "[sdo:CreativeWork](http://schema.org/CreativeWork)",
+        "SoftwareApplication": "[sdo:SoftwareApplication](http://schema.org/SoftwareApplication)",
+        "Thing": "[sdo:Thing](http://schema.org/Thing)"
+      },
+      "sioc": {
+        "Post": "[sioc:Post](http://rfds.org/sioc/spec/#term_Post)"
+      },
+      "org": {
+        "Organization": "[org:Organization](https://www.w3.org/TR/vocab-org/#class-organization)"
+      }
+    },
+    "dataProperty": {
+      "dcterms": {
+        "creator": "[dcterms:creator](http://purl.org/dc/terms/creator)",
+        "isPartOf": "[dcterms:isPartOf](http://purl.org/dc/terms/isPartOf)"
+      },
+      "provo": {
+        "endedAtTime": "[provo:endedAtTime](https://www.w3.org/TR/2013/REC-prov-o-20130430/#endedAtTime)",
+        "startedAtTime": "[provo:endedAtTime](https://www.w3.org/TR/2013/REC-prov-o-20130430/#startedAtTime)"
+      },
+      "sdo": {
+        "creator": "[sdo:creator](http://schema.org/creator)",
+        "description": "[sdo:description](http://schema.org/description)",
+        "dateCreated": "[sdo:dateCreated](http://schema.org/dateCreated)",
+        "dateModified": "[sdo:dateModified](http://schema.org/dateModified)",
+        "datePublished": "[sdo:datePublished](http://schema.org/datePublished)",
+        "isPartOf": "[sdo:isPartOf](http://schema.org/isPartOf)",
+        "keywords": "[sdo:keywords](http://schema.org/keywords)",
+        "name": "[sdo:name](http://schema.org/name)",
+        "version": "[sdo:version](http://schema.org/version)"
+      }
+    },
+    "dataType": {
+      "xsd": {
+        "dateTime": "[xsd:dateTime](https://www.w3.org/TR/xmlschema11-2/#dateTime)",
+        "nonNegativeInteger": "[xsd:nonNegativeInteger](https://www.w3.org/TR/xmlschema11-2/#nonNegativeInteger)",
+        "string": "[xsd:string](https://www.w3.org/TR/xmlschema11-2/#string)"
+      }
+    }
   }
 }
