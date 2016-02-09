@@ -10,7 +10,7 @@ __Comment__
 
 #### Message
 
-{% include "../model/entities/post.md" %}
+{% include "../model/entities/message.md" %}
 
 
 ### Reply

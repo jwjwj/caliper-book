@@ -1,14 +1,22 @@
-### Caliper Entities
+## Caliper Entities
 
-#### Introduction
+### Introduction
 
+TODO. Write Intro
 
-#### Agents
-[Person](./person.md)
-[Organization](./organization.md)
-[SoftwareApplication](./softwareapplication.md)
+{% include "./entity.md" %}
 
-[Membership](./membership.md)
+### Subclasses
 
-[Attempt](./attempt.md)
-[Session](./session.md)
+#### Agent
+* [Person](./person.md)
+* [Organization](./organization.md)
+* [SoftwareApplication](./softwareapplication.md)
+
+#### DigitalResource
+* [Media](./media.md)
+
+#### Other
+* [Attempt](./attempt.md)
+* [Membership](./membership.md)
+* [Session](./session.md)

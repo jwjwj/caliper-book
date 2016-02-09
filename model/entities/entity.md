@@ -2,7 +2,9 @@
 
 __Node type:__ {{ book.class.caliper.entity.Entity }}
 
-__Comment:__ a Caliper Entity represents a generic class that lacks the type specificity rendered explicit in its several subclasses.  It is analogous to an {{ book.class.sdo.Thing }}.  It is *recommended* that only subclasses of Entity be employed to represent nodes in the learning graph.  Caliper entities should be provisioned with a globally-scoped, dereferenceable IRI in order to ensure that Caliper [Event](../events/event.md) data can be linked and shared across contexts.  In cases where an IRI is inappropriate, an Entity can be assigned a blank node identifier.
+__Comment:__ a Caliper Entity represents a generic class that is analogous to an {{ book.class.sdo.Thing }}.  Since Entity lacks type specificity it is *recommended* that only subclasses of Entity be employed to represent nodes in the learning graph.  
+
+__Requirements:__ a Caliper Entity should be provisioned with a globally-scoped, dereferenceable IRI in order to ensure that Caliper [Event](../events/event.md) data can be linked and shared across contexts.  In cases where an IRI is inappropriate, an Entity can be assigned a blank node identifier.
 
 __Properties__
 

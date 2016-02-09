@@ -18,14 +18,23 @@
         "entity": {
           "Agent": "[http://purl.imsglobal.org/caliper/v1/Agent](http://purl.imsglobal.org/caliper/v1/Agent)",
           "Attempt": "[http://purl.imsglobal.org/caliper/v1/Attempt](http://purl.imsglobal.org/caliper/v1/Attempt)",
+          "AudioObject": "[http://purl.imsglobal.org/caliper/v1/AudioObject](http://purl.imsglobal.org/caliper/v1/AudioObject)",
           "DigitalResource": "[http://purl.imsglobal.org/caliper/v1/DigitalResource](http://purl.imsglobal.org/caliper/v1/DigitalResource)",
+          "ePubChapter": "[http://www.idpf.org/epub/vocab/structure/#chapter](http://www.idpf.org/epub/vocab/structure/#chapter)",
+          "ePubPart": "[http://www.idpf.org/epub/vocab/structure/#part](http://www.idpf.org/epub/vocab/structure/#part)",
+          "ePubSubChapter": "[http://www.idpf.org/epub/vocab/structure/#subchapter](http://www.idpf.org/epub/vocab/structure/#subchapter)",
+          "ePubVolume": "[http://www.idpf.org/epub/vocab/structure/#volume](http://www.idpf.org/epub/vocab/structure/#volume)",
           "Entity": "[http://purl.imsglobal.org/caliper/v1/Entity](http://purl.imsglobal.org/caliper/v1/Entity)",
+          "ImageObject": "[http://purl.imsglobal.org/caliper/v1/ImageObject](http://purl.imsglobal.org/caliper/v1/ImageObject)",
+          "MediaObject": "[http://purl.imsglobal.org/caliper/v1/MediaObject](http://purl.imsglobal.org/caliper/v1/MediaObject)",
           "Membership": "[http://purl.imsglobal.org/caliper/v1/lis/Membership](http://purl.imsglobal.org/caliper/lis/Membership)",
           "Organization": "[http://purl.imsglobal.org/caliper/v1/w3c/Organization](http://purl.imsglobal.org/caliper/w3c/Organization)",
           "Person": "[http://purl.imsglobal.org/caliper/v1/Person](http://purl.imsglobal.org/caliper/v1/lis/Person)",
           "Post": "[http://purl.imsglobal.org/caliper/v1/Post](http://purl.imsglobal.org/caliper/v1/Post)",
+          "Reading": "[http://purl.imsglobal.org/caliper/v1/Reading](http://purl.imsglobal.org/caliper/v1/Reading)",
           "Session": "[http://purl.imsglobal.org/caliper/v1/Event](http://purl.imsglobal.org/caliper/v1/Session)",
-          "SoftwareApplication": "[http://purl.imsglobal.org/caliper/v1/SoftwareApplication](http://purl.imsglobal.org/caliper/v1/SoftwareApplication)"
+          "SoftwareApplication": "[http://purl.imsglobal.org/caliper/v1/SoftwareApplication](http://purl.imsglobal.org/caliper/v1/SoftwareApplication)",
+          "VideoObject": "[http://purl.imsglobal.org/caliper/v1/VideoObject](http://purl.imsglobal.org/caliper/v1/VideoObject)"
         },
         "event": {
           "Event": "[http://purl.imsglobal.org/caliper/v1/Event](http://purl.imsglobal.org/caliper/v1/Event)"
@@ -38,10 +47,20 @@
         "Agent": "[foaf:Agent](http://xmlns.com/foaf/spec/#term_Agent)",
         "Person": "[foaf:Person](http://xmlns.com/foaf/spec/#term_Person)"
       },
+      "idpf": {
+        "ePubChapter": "[idpf:chapter](http://www.idpf.org/epub/vocab/structure/#chapter)",
+        "ePubPart": "[idpf:part](http://www.idpf.org/epub/vocab/structure/#part)",
+        "ePubSubChapter": "[idpf:subchapter](http://www.idpf.org/epub/vocab/structure/#subchapter)",
+        "ePubVolume": "[idpf:volume](http://www.idpf.org/epub/vocab/structure/#volume)"
+      },
       "sdo": {
+        "AudioObject": "[sdo:AudioObject](http://schema.org/AudioObject)",
         "CreativeWork": "[sdo:CreativeWork](http://schema.org/CreativeWork)",
+        "ImageObject": "[sdo:ImageObject](http://schema.org/ImageObject)",
+        "MediaObject": "[sdo:MediaObject](http://schema.org/MediaObject)",
         "SoftwareApplication": "[sdo:SoftwareApplication](http://schema.org/SoftwareApplication)",
-        "Thing": "[sdo:Thing](http://schema.org/Thing)"
+        "Thing": "[sdo:Thing](http://schema.org/Thing)",
+        "VideoObject": "[sdo:VideoObject](http://schema.org/VideoObject)"
       },
       "sioc": {
         "Post": "[sioc:Post](http://rfds.org/sioc/spec/#term_Post)"
@@ -65,6 +84,7 @@
         "dateCreated": "[sdo:dateCreated](http://schema.org/dateCreated)",
         "dateModified": "[sdo:dateModified](http://schema.org/dateModified)",
         "datePublished": "[sdo:datePublished](http://schema.org/datePublished)",
+        "duration": "[sdo:duration](http://schema.org/duration)",
         "isPartOf": "[sdo:isPartOf](http://schema.org/isPartOf)",
         "keywords": "[sdo:keywords](http://schema.org/keywords)",
         "name": "[sdo:name](http://schema.org/name)",
@@ -74,6 +94,7 @@
     "dataType": {
       "xsd": {
         "dateTime": "[xsd:dateTime](https://www.w3.org/TR/xmlschema11-2/#dateTime)",
+        "long": "[xsd:long](https://www.w3.org/TR/xmlschema11-2/#long)",
         "nonNegativeInteger": "[xsd:nonNegativeInteger](https://www.w3.org/TR/xmlschema11-2/#nonNegativeInteger)",
         "string": "[xsd:string](https://www.w3.org/TR/xmlschema11-2/#string)"
       }
